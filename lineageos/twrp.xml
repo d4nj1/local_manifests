@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="TeamWin"
+            fetch="https://github.com/TeamWin"
+            review="https://gerrit.twrp.me"/>
+    <remote name="MartinX3-AndroidDevelopment-LineageOS"
+            fetch="https://github.com/MartinX3-AndroidDevelopment-LineageOS"/>
+
+    <!--TWRP IS NOT READ FOR ANDROID 10-->
+    <!--TWRP IS NOT READ FOR ANDROID 10-->
+    <!--TWRP IS NOT READ FOR ANDROID 10-->
+    <!-- TWRP lives in TeamWin android-9.0 (not AOSP!) -->
+    <!--<remove-project name="LineageOS/android_bootable_recovery"/>-->
+    <!--<project path="bootable/recovery" name="android_bootable_recovery" remote="TeamWin" revision="android-9.0"/>-->
+    <!--<project path="bootable/recovery" name="android_bootable_recovery" remote="MartinX3-AndroidDevelopment-LineageOS"
+             revision="MartinX3/aosp10-2"/>-->
+
+    <!-- Include external Magisk repo for repack binaries -->
+    <!--<project path="external/magisk-prebuilt" name="external_magisk-prebuilt" remote="TeamWin" revision="master"/>-->
+    <!--<project path="external/magisk-prebuilt" name="external_magisk-prebuilt"
+             remote="MartinX3-AndroidDevelopment-LineageOS" revision="MartinX3/master"/>-->
+</manifest>

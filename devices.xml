@@ -31,4 +31,7 @@
 <project path="device/sony/kumano" name="device-sony-kumano" groups="device" remote="sony" revision="master" />
 <project path="device/sony/bahamut" name="device-sony-bahamut" groups="device" remote="sony" revision="master" />
 <project path="device/sony/griffin" name="device-sony-griffin" groups="device" remote="sony" revision="master" />
+
+<!-- LAST: Add/Replace repos and particular directories needed by LineageOS -->
+<include name="local_manifests/lineageos/devices.xml" />
 </manifest>
