@@ -2,6 +2,8 @@
 <manifest>
     <remote name="afstamming"
             fetch="https://github.com/afstamming"/>
+    <remote name="d4nj1"
+            fetch="https://github.com/d4nj1"/>
 
     <project path="device/sony/customization" name="android_device_sony_customization"
              remote="d4nj1" revision="MartinX3/lineage-17.1"/>
