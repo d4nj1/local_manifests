@@ -4,7 +4,7 @@
             fetch="https://github.com/afstamming"/>
 
     <project path="device/sony/customization" name="android_device_sony_customization"
-             remote="MartinX3-AndroidDevelopment-LineageOS" revision="MartinX3/lineage-17.1"/>
+             remote="d4nj1" revision="MartinX3/lineage-17.1"/>
 
     <include name="local_manifests/lineageos/aosp.xml"/>
     <include name="local_manifests/lineageos/twrp.xml"/>
